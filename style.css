@@ -1,0 +1,38 @@
+body {
+	color: aliceblue;
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 100vw;
+	width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+	padding: 40px 40px;
+	box-sizing: border-box;
+}
+
+.list {
+	list-style-type: none;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 20px);
+	grid-template-rows: repeat(auto-fill, 20px);
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.item {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
