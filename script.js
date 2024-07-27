@@ -40,7 +40,7 @@ const sqrCreateBox = (box, tag, width, cellSize, step = [0, 0], row = 1, colums 
 
 window.addEventListener('resize', () => {
     list.innerHTML = ''
-    sqrCreateBox(list, 'li', 160, 20)
+    sqrCreateBox(list, 'li', 80, 20)
     callage.list = document.querySelectorAll('.item')
 })
 
