@@ -1,0 +1,6 @@
+# Collage
+
+## Props
+```
+list: HTMLElement[]
+```
